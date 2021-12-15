@@ -1,0 +1,184 @@
+{
+	"CONTRACT_ADDRESS" : "0x2fe623d8DF45a19aC12E49FAFC291FEc459a61e7",
+	"ABI" :[
+		{
+		  "inputs": [],
+		  "stateMutability": "nonpayable",
+		  "type": "constructor"
+		},
+		{
+		  "anonymous": false,
+		  "inputs": [
+			{
+			  "indexed": false,
+			  "internalType": "uint256",
+			  "name": "fileId",
+			  "type": "uint256"
+			},
+			{
+			  "indexed": false,
+			  "internalType": "string",
+			  "name": "fileHash",
+			  "type": "string"
+			},
+			{
+			  "indexed": false,
+			  "internalType": "uint256",
+			  "name": "filesize",
+			  "type": "uint256"
+			},
+			{
+			  "indexed": false,
+			  "internalType": "string",
+			  "name": "fileType",
+			  "type": "string"
+			},
+			{
+			  "indexed": false,
+			  "internalType": "string",
+			  "name": "fileName",
+			  "type": "string"
+			},
+			{
+			  "indexed": false,
+			  "internalType": "string",
+			  "name": "fileDescription",
+			  "type": "string"
+			},
+			{
+			  "indexed": false,
+			  "internalType": "uint256",
+			  "name": "uploadTime",
+			  "type": "uint256"
+			},
+			{
+			  "indexed": false,
+			  "internalType": "address payable",
+			  "name": "uploader",
+			  "type": "address"
+			}
+		  ],
+		  "name": "FileUploaded",
+		  "type": "event"
+		},
+		{
+		  "inputs": [],
+		  "name": "fileCount",
+		  "outputs": [
+			{
+			  "internalType": "uint256",
+			  "name": "",
+			  "type": "uint256"
+			}
+		  ],
+		  "stateMutability": "view",
+		  "type": "function",
+		  "constant": true
+		},
+		{
+		  "inputs": [
+			{
+			  "internalType": "uint256",
+			  "name": "",
+			  "type": "uint256"
+			}
+		  ],
+		  "name": "files",
+		  "outputs": [
+			{
+			  "internalType": "uint256",
+			  "name": "fileId",
+			  "type": "uint256"
+			},
+			{
+			  "internalType": "string",
+			  "name": "fileHash",
+			  "type": "string"
+			},
+			{
+			  "internalType": "uint256",
+			  "name": "filesize",
+			  "type": "uint256"
+			},
+			{
+			  "internalType": "string",
+			  "name": "fileType",
+			  "type": "string"
+			},
+			{
+			  "internalType": "string",
+			  "name": "fileName",
+			  "type": "string"
+			},
+			{
+			  "internalType": "string",
+			  "name": "fileDescription",
+			  "type": "string"
+			},
+			{
+			  "internalType": "uint256",
+			  "name": "uploadTime",
+			  "type": "uint256"
+			},
+			{
+			  "internalType": "address payable",
+			  "name": "uploader",
+			  "type": "address"
+			}
+		  ],
+		  "stateMutability": "view",
+		  "type": "function",
+		  "constant": true
+		},
+		{
+		  "inputs": [],
+		  "name": "name",
+		  "outputs": [
+			{
+			  "internalType": "string",
+			  "name": "",
+			  "type": "string"
+			}
+		  ],
+		  "stateMutability": "view",
+		  "type": "function",
+		  "constant": true
+		},
+		{
+		  "inputs": [
+			{
+			  "internalType": "string",
+			  "name": "_fileHash",
+			  "type": "string"
+			},
+			{
+			  "internalType": "uint256",
+			  "name": "_filesize",
+			  "type": "uint256"
+			},
+			{
+			  "internalType": "string",
+			  "name": "_fileType",
+			  "type": "string"
+			},
+			{
+			  "internalType": "string",
+			  "name": "_fileName",
+			  "type": "string"
+			},
+			{
+			  "internalType": "string",
+			  "name": "_fileDescription",
+			  "type": "string"
+			}
+		  ],
+		  "name": "uploadFile",
+		  "outputs": [],
+		  "stateMutability": "nonpayable",
+		  "type": "function"
+		}
+	  ]
+}
+
+
+  
